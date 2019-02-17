@@ -1,5 +1,5 @@
 # CentOS 7.6.1810 + epel-release
-Dokerfile da criação de imagem docker Firebird no CentOS 7.6
+Dokerfile da criação de imagem docker CentOS 7.6.1810 + epel-release
 
 *********
 ### Gerando Build
