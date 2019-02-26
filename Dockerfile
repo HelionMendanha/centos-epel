@@ -4,7 +4,7 @@ LABEL name="Centos 7.6.1810 + epel-release" \
     vendor="CentOS" \
     license="GPLv2" \
     maintainer="helion@mendanha.com.br" \
-    build-date="20190217" 
+    build-date="20190226" 
 	
 RUN yum -y install epel-release \
 	&& yum -y upgrade \
