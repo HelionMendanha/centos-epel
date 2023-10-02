@@ -1,10 +1,11 @@
-FROM centos:7.6.1810
+FROM centos:centos7.9.2009
 
-LABEL name="Centos 7.6.1810 + epel-release" \
+
+LABEL name="Centos 7.9.2009 + epel-release" \
     vendor="CentOS" \
     license="GPLv2" \
     maintainer="helion@mendanha.com.br" \
-    build-date="20190226" 
+    build-date="20231002" 
 	
 RUN yum -y install epel-release \
 	&& yum -y upgrade \
